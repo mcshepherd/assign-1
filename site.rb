@@ -9,5 +9,5 @@ require 'sinatra'
    "Ciao!"   
  end
 get '/readmore' do
-  "This is an example of a read more page from a route."
+  erb :read_more
 end
